@@ -17,4 +17,30 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+img {
+  display: block;
+}
+
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.country-flag {
+  width: 244px;
+}
+
+.country-name {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.main-data {
+  font-weight: 700;
+  margin-left: 5px;
 }
