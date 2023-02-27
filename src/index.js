@@ -59,9 +59,9 @@ function showCountryCard(country) {
   <h2 class = "country-name">${name.official}</h2>
   </div>
   <div>
-  <p><span class = "main-data">Capital: </span>${capital}</p>
-  <p><span class = "main-data">Population: </span>${population}</p>
-  <p><span class = "main-data">Languages: </span>${Object.values(
+  <p><span class = "country-desc">Capital: </span>${capital}</p>
+  <p><span class = "country-desc">Population: </span>${population}</p>
+  <p><span class = "country-desc">Languages: </span>${Object.values(
     languages
   ).join(',')}</p>
   </div>
